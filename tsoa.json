@@ -1,0 +1,17 @@
+{
+  "entryFile": "src/index.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["./src/v1/controllers/*.ts"],
+  "spec": {
+    "name": "POC Express + Swagger UI + tsoa",
+    "schemes": ["http", "https"],
+    "host": "localhost:3000",
+    "outputDirectory": ".",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "dist",
+    "middleware": "express"
+  },
+  "ignore": ["**/node_modules/**"]
+}
